@@ -1,6 +1,6 @@
 {{
   config(
-    materialized="table",
+    materialized="view",
     alias="forecast_day",
     schema="stg_weather"
   )
