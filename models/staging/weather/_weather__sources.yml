@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: GLOBAL_WEATHER
+
+    database: GLOBAL_WEATHER__CLIMATE_DATA_FOR_BI
+    schema: STANDARD_TILE
+
+    tables:
+      - name: FORECAST_DAY
